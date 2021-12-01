@@ -1,0 +1,41 @@
+.section__concept{
+    width: 90%;
+    margin: 0 auto;
+}
+/* .section__concept{
+    display: flex;
+} */
+.section__concept img{
+height: 248px;
+background: #C4C4C4;
+border-radius: 4px;
+}
+.concept__titre {
+    margin-top: 5px;
+    color: #FFFFFF;
+width: 227px;
+height: 33px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 109%;
+
+}
+.concept__texte{
+    width: 282px;
+height: 95px;
+margin-top: 5px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 12.7292px;
+line-height: 19px;
+color: #FFFFFF;
+}
+.section__concept2 div{
+     width: 90%;
+    margin: 0 auto;
+ background-color: crimson;
+}
+
