@@ -11,36 +11,35 @@
 
 <body>
     <section class="site">
-        <section class="section__banner">
-            <div class="banner__menu">
-                <ul>
-                    <li>
-                        <a class="menu__graveyard--active" target="_blank" href="./index_Graveyard.html">Graveyard</a>
-                        <a class="menu__trackrecord--active" href="https://www.youtube.com/">Track Record</a>
-                        <a class="menu__services--active" href="https://www.youtube.com/">Services</a>
-                        <a class="menu__knowmore--active" href="https://www.youtube.com/">Know More</a>
-                        <a class="menu__support--active" href="https://www.youtube.com/">Support</a>
-                    </li>
-                    
-                </ul>
-                <div class="topbar_burger">
-                    <a class="burger_logo" href="#"><img src="./assets/IMG/logo.svg" alt=""><span>KIA ORA</span></a>
-                    <button class="burger_menu"
-                        onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
-                        aria-label="Main Menu">
-                        <svg width="40" height="100" viewBox="0 0 100 100">
-                            <path class="line line1"
-                                d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
-                            <path class="line line2" d="M 20,50 H 80" />
-                            <path class="line line3"
-                                d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
-                        </svg>
-                    </button>
-                </div>
+        <div class="banner__menu">
+            <ul id="side-bar">
+                <li>
+                    <a class="menu__graveyard--active" href="#">Home</a>
+                    <a class="menu__trackrecord--active" href="#">News</a>
+                    <a class="menu__services--active" href="#">FAQ</a>
+                    <a class="menu__knowmore--active" href="#">About Us</a>
+                    <a class="menu__knowmore--active" href="#">Contact</a>
+                </li>
+            </ul>
+            <div class="topbar_burger">
+                <a class="burger_logo" href="#"><img src="./assets/IMG/logo.svg" alt=""><span>KIA ORA</span></a>
+                <button class="burger_menu" id="burger-active">
+                    <svg width="40" height="100" viewBox="0 0 100 100">
+                        <path class="line line1"
+                            d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                        <path class="line line2" d="M 20,50 H 80" />
+                        <path class="line line3"
+                            d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                    </svg>
+                </button>
             </div>
+        </div>
+        <section class="site__banner">
             <div class="menu__container">
-                <a class="container__about" href="#"><span class="about__1">Captain Sem</span><span
-                        class="about__2">Veteran Spooky Ghost</span></a>
+                <div class="container__about">
+                    <span class="about__1">Captain Sem</span>
+                    <span class="about__2">Veteran Spooky Ghost</span>
+                </div>
                 <img src="./assets/IMG/banner__mage.png" alt="">
                 <ul>
                     <div>
@@ -72,9 +71,9 @@
                         <li>L</li>
                     </div>
                 </ul>
-                <div>
-                    <a href="#" class="ghost__button">
-                        See All Monstrer
+                <div href="#" class="banner__button">
+                    <a>
+                       Monster
                     </a>
                 </div>
             </div>
@@ -131,6 +130,9 @@
             </div>
         </section>
     </section>
+    </section>
+    <script src="./assets/JS/_burger_menu.js">
+    </script>
 </body>
 
-</html>
+</html> 
