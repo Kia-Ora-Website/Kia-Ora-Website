@@ -24,6 +24,7 @@ body {
 .site {
     background: linear-gradient(180deg, #CFB36E 0%, rgba(0, 0, 0, 0.64) 56.12%);
     /* padding: 0 20px; */
+    overflow: hidden;
 }
 
 .site__banner {
@@ -32,7 +33,28 @@ body {
 }
 
 .banner__menu ul {
-    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    overflow-y: hidden;
+    width: 100vw;
+    background: linear-gradient(180deg, #D3B470 0%, #594A55 100%);
+    padding: 0px 40px;
+    padding-top: 100px;
+    transition: 0.5s;
+    transform: translateX(100%);
+    z-index: 1;
+}
+
+.banner__menu li {
+    display: flex;
+    flex-direction: column;
+    line-height: 5rem;
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 900;
 }
 
 .container__about {

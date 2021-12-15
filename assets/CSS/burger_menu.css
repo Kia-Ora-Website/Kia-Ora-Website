@@ -111,23 +111,5 @@
 }
 
 .sidebar--active {
-    scroll-behavior: 0;
-    height: 100%;
-    display: block!important;
-    position: absolute!important;
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(180deg, #D3B470 0%, #594A55 100%);
-    z-index: 1;
-    padding: 0px 40px;
-    padding-top: 100px;
-}
-
-.sidebar--active li {
-    display: flex;
-    flex-direction: column;
-    line-height: 5rem;
-    color: #FFFFFF;
-    font-size: 3rem;
-    font-weight: 900;
+    transform: translateY(0)!important;
 }
