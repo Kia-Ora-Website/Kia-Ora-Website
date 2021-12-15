@@ -1,41 +1,103 @@
-.section__concept{
+.section__concept {
     width: 90%;
     margin: 0 auto;
 }
+
 /* .section__concept{
     display: flex;
 } */
-.section__concept img{
-height: 248px;
-background: #C4C4C4;
-border-radius: 4px;
+.section__concept img {
+    height: 248px;
+    background: #C4C4C4;
+    border-radius: 4px;
 }
+
 .concept__titre {
     margin-top: 5px;
     color: #FFFFFF;
-width: 227px;
-height: 33px;
-font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 30px;
-line-height: 109%;
+    width: 227px;
+    height: 33px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 109%;
 
 }
-.concept__texte{
+
+.concept__texte {
     width: 282px;
-height: 95px;
-margin-top: 5px;
-font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 12.7292px;
-line-height: 19px;
-color: #FFFFFF;
-}
-.section__concept2 div{
-     width: 90%;
-    margin: 0 auto;
- background-color: crimson;
+    height: 95px;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.7292px;
+    line-height: 19px;
+    color: #FFFFFF;
 }
 
+.section__personnage {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;
+}
+
+.personnage__contenu img {
+    height: 150px;
+}
+
+.personnage__description img {
+    height: 40px;
+}
+
+.personnage__description {
+    display: flex;
+}
+
+.personnage__description h3 {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 180%;
+    color: #FFFFFF;
+}
+
+.personnage__description p {
+    color: #FFFFFF;
+    width: 78px;
+    height: 11px;
+    top: 1271.59px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7px;
+    line-height: 10px;
+}
+
+.personnage__contenu2 img {
+    align-items: center;
+}
+
+.section__arme .personnage__contenu {
+    padding-top: 10px;
+    width: 100px;
+    height: 153px;
+    background: #8A785E;
+    border-radius: 10px;
+}
+
+.section__arme img {
+    height: 100px;
+    width: 30px;
+    margin: 0 auto;
+    display: table-cell;
+}
+.section__arme .personnage__contenu .personnage__description {
+    margin-left: 15px;
+}
