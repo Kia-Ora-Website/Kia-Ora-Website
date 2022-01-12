@@ -1,12 +1,13 @@
 .section__concept {
     width: 90%;
     margin: 0 auto;
+    padding-top: 15px;
+
 }
 
-/* .section__concept{
-    display: flex;
-} */
+
 .section__concept img {
+    width: 100%;
     height: 248px;
     background: #C4C4C4;
     border-radius: 4px;
@@ -20,18 +21,18 @@
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 109%;
 
 }
 
 .concept__texte {
-    width: 282px;
+    width: 100%;
     height: 95px;
     margin-top: 5px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 12.7292px;
     line-height: 19px;
     color: #FFFFFF;
@@ -45,12 +46,20 @@
     padding-bottom: 35px;
 }
 
+
 .personnage__contenu img {
-    height: 150px;
+    height: 75%;
+    object-fit: contain;
+    width: 75px;
+    object-position: bottom;
+}
+
+.personnage__contenu__img {
+    width: 85px;
 }
 
 .personnage__description img {
-    height: 40px;
+    width: 50%;
 }
 
 .personnage__description {
@@ -61,8 +70,7 @@
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: bold;
-    font-size: 10px;
+    font-size: 0.90rem;
     line-height: 180%;
     color: #FFFFFF;
 }
@@ -72,11 +80,10 @@
     width: 78px;
     height: 11px;
     top: 1271.59px;
-
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 7px;
+    font-size: 0.65rem;
     line-height: 10px;
 }
 
