@@ -145,50 +145,46 @@ body {
     transform: translate(-50%, -50%);
 }
 
-/* .banner_2_img {
+.banner_2_img {
     height: 100vh;
 }
 .banner_2_img img {
     height: 35vw;
     padding-left: 5%;
-} */
-@media (min-width: 600px) {
-    
 }
-/* @media (min-width: 992px) {
+@media (min-width: 600px) {}
+
+@media (min-width: 992px) {
     .topbar_burger {
         display: none
     }
+
     .banner_2_img {
-        display:none
+        display: none
     }
 }
+
 @media (min-width: 1200px) {
-    body {
-        margin: 0px;
-        padding: 0px;
-        font-family: 'Poppins', sans-serif;
-    }
-    
+
     .section__banner {
         background-color: #DAAEAE;
         height: 100vh;
     }
-    
+
     .banner__menu {
         background-color: #362455;
-        list-style-type: none ; 
-        padding: 0; 
+        list-style-type: none;
+        padding: 0;
         margin: 0;
         width: 100vw;
         height: 70px;
-    }   
-    
+    }
+
     .banner__menu img {
         margin-right: 10px;
         margin-top: 5px;
-    } 
-    
+    }
+
     .banner__menu ul {
         display: flex;
         justify-content: space-between;
@@ -198,14 +194,14 @@ body {
         padding-top: 22px;
         padding-bottom: 15px;
     }
-    
+
     .banner__menu a {
         padding: 10px;
         position: relative;
         color: white;
         text-decoration: none;
-    } 
-    
+    }
+
     .banner__menu span {
         position: absolute;
         width: 70px;
@@ -213,30 +209,32 @@ body {
         left: 48px;
         top: 3.5px;
     }
-    
+
     .menu__logo {
         transition: 0.3s;
     }
-    
+
     .menu__support--active {
         border: solid white 1px;
         border-radius: 30px;
         transition: 0.3s;
     }
-    
-    .menu__support--active:hover{
-        background-color: #FFFFFF;    
+
+    .menu__support--active:hover {
+        background-color: #FFFFFF;
         color: #362455;
         font-size: 1.1rem;
     }
-    .menu__graveyard--active{
+
+    .menu__graveyard--active {
         border-radius: 30px;
         transition: 0.3s;
     }
-    
-    .menu__graveyard--active:hover{
+
+    .menu__graveyard--active:hover {
         font-size: 1.1rem;
     }
+
     .menu__graveyard--active::before {
         content: "";
         position: absolute;
@@ -247,57 +245,57 @@ body {
         height: 5px;
         width: 5px;
         border-radius: 16526px;
-    }   
-    
-    .menu__trackrecord--active{
+    }
+
+    .menu__trackrecord--active {
         border-radius: 30px;
         transition: 0.3s;
     }
-    
-    .menu__trackrecord--active:hover{
+
+    .menu__trackrecord--active:hover {
         font-size: 1.1rem;
     }
-    
-    .menu__services--active{
+
+    .menu__services--active {
         border-radius: 30px;
         transition: 0.3s;
     }
-    
-    .menu__services--active:hover{
+
+    .menu__services--active:hover {
         font-size: 1.1rem;
     }
-    
-    .menu__knowmore--active{
+
+    .menu__knowmore--active {
         border-radius: 30px;
         transition: 0.3s;
     }
-    
-    .menu__knowmore--active:hover{
+
+    .menu__knowmore--active:hover {
         font-size: 1.1rem;
     }
-    
+
     .menu__container {
         display: flex;
         width: 55vw;
         margin: 0 auto;
         justify-content: space-between;
-        padding-top: 5%;  
+        padding-top: 5%;
     }
-    
+
     .menu__container img {
         width: 650px;
     }
-    
+
     .menu__container img {
         transform: scale(1);
         transition: 0.3s;
     }
-    
+
     .menu__container img:hover {
-        transform: scale(0.85); 
+        transform: scale(0.85);
         cursor: pointer;
     }
-    
+
     .menu__container ul {
         margin: 0;
         color: #FFFFFF;
@@ -306,23 +304,23 @@ body {
         padding-top: 5%;
         transition: 0.3s;
         list-style: none;
-    
+
     }
-    
+
     .menu__container div {
         display: flex;
     }
-    
+
     .menu__container li {
         transition: 0.3s;
         font-weight: 700;
     }
-    
+
     .menu__container li:hover {
         font-size: 1.2em;
         cursor: pointer;
     }
-    
+
     .banner__button {
         padding: 15px 32px;
         width: 150px;
@@ -330,31 +328,31 @@ body {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
-        margin :-50px auto;
+        margin: -50px auto;
         position: relative;
         transition: 0.3s;
     }
-    
+
     .banner__button:hover {
         transform: scale(1.1);
         cursor: pointer;
-     }
-    
-     .banner__button img {
-         padding-top: 50px;
-         width: 200px;
-     }
-     
-     .banner__button span {
-         font-family: 'Poppins', sans-serif;
-         color: #362455;
-         font-size: 1.3em;
-         white-space: nowrap;
-         text-decoration: none;
-         position: absolute;
-         top: 48%; 
-         left: 59%;
-         transform: translate(-50%, -50%);
-         padding-top: 95px;
-     }
-    } */
+    }
+
+    .banner__button img {
+        padding-top: 50px;
+        width: 200px;
+    }
+
+    .banner__button span {
+        font-family: 'Poppins', sans-serif;
+        color: #362455;
+        font-size: 1.3em;
+        white-space: nowrap;
+        text-decoration: none;
+        position: absolute;
+        top: 48%;
+        left: 59%;
+        transform: translate(-50%, -50%);
+        padding-top: 95px;
+    }
+}
